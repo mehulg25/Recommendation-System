@@ -11,7 +11,6 @@ Spotify, an online music streaming platform, puts user personalization at the fo
 What sets Spotify apart from other music streaming platforms like Amazon Music, Pandora, Apple Music, and YT Music is precisely the spot on recommendations that it offers users for their playlists. Through this project, we aim to see how any platform can improve its user personalization and its implications for the future of targetted marketing.
 
 
-
 ### Mission Objectives
 
 For this project we will be building a recommendation system which recommends 20 songs that a user might add to their playlist based on the first song added by the user. This recommendation system can be leveraged by platforms to further refine the precision of their recommendations to users and ensure that customers stay loyal to their platform.
@@ -25,20 +24,29 @@ In order to achieve this, we will try to analyze the data in order to find trend
 
 ### Data Sources
 
-Our analysis was done on an existing dataset obtained from a Spotify Case Challenge - Million Playlist Dataset Challenge, hosted by AIcrowd in JSON format. This dataset consists of 1 million Spotify playlists and is sampled from over 4 billion public playlists on Spotify. This sampled dataset further consists of over 2 million unique tracks by nearly 300,000 artists and represents the largest public dataset of music playlists in the world. The dataset includes public playlists created by US Spotify users between January 2010 and November 2017. Playlists are sampled with simple randomization, are manually filtered for playlist quality and to remove offensive content and have some dithering and fictitious tracks added to them. As such, the dataset is not representative of the true distribution of playlists on the Spotify platform and must not be interpreted as such in any research or analysis performed on the dataset. The data is anonymized to protect user privacy by Spotify.
+The analysis was done on an existing dataset obtained from a Spotify Case Challenge - Million Playlist Dataset Challenge, hosted by AIcrowd in JSON format. This dataset consists of 1 million Spotify playlists and is sampled from over 4 billion public playlists on Spotify. This sampled dataset further consists of over 2 million unique tracks by nearly 300,000 artists and represents the largest public dataset of music playlists in the world. The dataset includes public playlists created by US Spotify users between January 2010 and November 2017. Playlists are sampled with simple randomization, are manually filtered for playlist quality and to remove offensive content and have some dithering and fictitious tracks added to them. As such, the dataset is not representative of the true distribution of playlists on the Spotify platform and must not be interpreted as such in any research or analysis performed on the dataset. The data is anonymized to protect user privacy by Spotify.
 
-However, Our analysis was done only on the first 1000 playlists and their respective songs to serve the purpose of this project.
+However, The analysis was done only on the first 1000 playlists and their respective songs to serve the purpose of this project.
 
 ### Data Files
 
 The project consists of two Data files:
 
 - <b> playlist_data </b> <br>
-This file is in json format and consists of playlist data and their respective tracks.
+This file is in json format and consists of playlist data and their respective tracks. 
 
 - <b> track_data </b> <br>
 This file is in csv format and consists of track meta data.
 
+### Setting Up
+To set up this project, you will require the following tools:
+1. Anaconda
+2. Jupyter Lab
+3. Python 3.0.0+
+Please make sure that you have installed all the libraries used in this project. 
+
+Once you are done setting up the environment, You can run the Jupyter Notebook on Anaconda. Make sure to change the path of the data as per your convinience. 
+You can also check out the presentation report or the HTML report in order to avoid running the Jupyter Notebook.
 
 ### Final Thoughts 
 
