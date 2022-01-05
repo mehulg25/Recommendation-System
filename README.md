@@ -43,6 +43,7 @@ To set up this project, you will require the following tools:
 1. Anaconda
 2. Jupyter Lab
 3. Python 3.0.0+
+
 Please make sure that you have installed all the libraries used in this project. 
 
 Once you are done setting up the environment, You can run the Jupyter Notebook on Anaconda. Make sure to change the path of the data as per your convinience. 
